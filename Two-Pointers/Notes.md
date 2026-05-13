@@ -197,7 +197,7 @@ Always ask:
 ## Opposite Direction Template
 
 ```java
-while(left < right){
+for(int right=0 ; right <n ; right++){
 
     if(condition){
         // answer
