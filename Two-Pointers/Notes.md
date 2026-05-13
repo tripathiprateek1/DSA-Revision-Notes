@@ -197,7 +197,7 @@ Always ask:
 ## Opposite Direction Template
 
 ```java
-for(int right=0 ; right <n ; right++){
+while(left < right){
 
     if(condition){
         // answer
@@ -216,8 +216,8 @@ for(int right=0 ; right <n ; right++){
 ## Sliding Window Template
 
 ```java
-while(right < n){
-
+ for(int right=0 ; right <n ; right++) {
+     
     // expand window
 
     while(window invalid){
